@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- An directory .git is created where the computer saves all of my commits.
+- Good question!
