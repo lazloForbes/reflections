@@ -5,9 +5,9 @@ What happens when you initialize a repository? Why do you need to do it?
 
 New commands I've learned:
 
-"git init" - create a repository
-"git add filename" - works on the staging area
-"git status" - works on the staging area
+- "git init" - create a repository
+- "git add filename" - works on the staging area
+- "git status" - works on the staging area
 
 How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
@@ -20,3 +20,20 @@ repository? What value do you think it offers?
 - It probably adds the value of not commiting to many files. in each version.
 - This would save a lot of discspace instead of saving multiple version of
 - all possible files.
+
+New commands:
+
+- "git diff" - gives the difference of the files in the staging area and the 
+- working directory
+- "git diff --staged" - gives the difference of the files in the staging area
+- and the repository
+- "git restet --hard" - removes changes on the working directory that has not
+- been added to the staging area. (Be careful when you use this to not lose
+- and of your work)
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+- By only adding files that have anything to do with the logical change.
+- By this I mean files that are affected by the change should be added, no
+- other files.
