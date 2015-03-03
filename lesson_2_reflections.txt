@@ -53,3 +53,37 @@ organized? How would branches help?
 - Branches would help me in a way the codes apart so that I don't have to look
 - through all of my commits.
 
+- Remote Branch - Someone else has created it.
+
+- Think of commits as having parents.
+
+- Lets say I am on a branch with the commits a - b - c, where c is the most
+- recent and a is the oldest. If I now checkout a and then makes a change to it
+- and then makes a commit, this will not affect b or c. It will create a new
+- branch-less commit. If I want to save this so I don't lose it I have to
+- either save the commit-id or I have to create a new branch:
+- "git checkout -b newBranchName"
+
+How do the diagrams help you visualize the branch structure?
+
+- It helps me by visualising the commits that have been made on both branches.
+- It is easy to see from where they don't match.
+- "git log --graph --oneline branch1 branch2", --oneline is not necessary but
+- it will make it easier to visualise the log.
+
+New commands:
+
+- "git show commitId" - Show the changes compare to the parent of the commit.
+- "git branch -d branchName" - Delete the label of the branch, not the commits.
+- "git merge branch1 branch2" - This will merge branch1 and branch2 and, if you
+- have another branch checked-out (branch3), branch3. If you only want to merge
+- branch1 and branch2 you first have to checkout one of them, the one which
+- name you want the merged branch to have. Lets say yo checked-out branch1,
+- then you type "git merge branch2" to merge branch1 and branch2.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+- When merging two branches we will in the future only have one branch. If we
+- want we could delete the branch-label for the branch that was merge into the
+- other branch.
