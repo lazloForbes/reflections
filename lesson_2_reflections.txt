@@ -27,7 +27,7 @@ New commands:
 - working directory
 - "git diff --staged" - gives the difference of the files in the staging area
 - and the repository
-- "git restet --hard" - removes changes on the working directory that has not
+- "git reset --hard" - removes changes on the working directory that has not
 - been added to the staging area. (Be careful when you use this to not lose
 - and of your work)
 
@@ -37,3 +37,19 @@ change?
 - By only adding files that have anything to do with the logical change.
 - By this I mean files that are affected by the change should be added, no
 - other files.
+
+New commands:
+
+- "git branch" - gives all the possible branches
+- "git branch branchName" - creates a new branch with the name branchName
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+- If I want to experiment with my code but don't want to manipulate the working
+- version of the code. Another possibility is if I want to make a bigger update
+- of the code, like go from 1.0.x to 1.1.x. Yet another possibility is i I want
+- to make a version in another language or something like that.
+- Branches would help me in a way the codes apart so that I don't have to look
+- through all of my commits.
+
