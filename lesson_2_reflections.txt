@@ -87,3 +87,13 @@ the diagram the way we do?
 - When merging two branches we will in the future only have one branch. If we
 - want we could delete the branch-label for the branch that was merge into the
 - other branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+- The pros of automatic merging are that it is simple and does the job well.
+- The pros of manual merging are that if we are two people that has made
+- changes to the code, there won't be any conflicts in the future since Git
+- signals these differences and makes us look at them.
+- I can't accerly see any cons with either of them.
+
