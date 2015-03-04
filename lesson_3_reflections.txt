@@ -1,5 +1,17 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your 
+work local?
 
-- When I want to collaborate with other people and share my project. It is also a good
-- way to backup the files.
+- When I want to collaborate with other people and share my project. It is also
+- a good way to backup the files.
 
+New commands:
+
+- "git push nameOfRepository" - use when I want to push files to GitHub
+- "git pull nameOfRepository branchToPullTo" - use when I want to pull files
+- from GitHub
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+- Because if I'm working on a project I maby don't want new code that could
+- interfer with what I've done.
