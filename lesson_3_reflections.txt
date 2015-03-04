@@ -26,3 +26,24 @@ use one instead of another?
 - CLONES are an copy of a repository that you have on your local computer.
 - BRANCHES are a sidetracks you can use if you want to test out new idead but
 - don't want to make changes to the working copy that are official.
+
+New commands:
+
+- "git fetch" - to get a local copy of the latest commit to the GitHub
+- repository without makeing changes to local commits that has not been pushed
+- to GitHub yet.
+- "git pull origin master" == "git fetch origin" and then "git merge master
+- origin/master"
+
+About fast-forward merge:
+
+- Fast-forward merge is possible when an commit is reachable from the other.
+- "o--A--o--o--B", here A is reachable from B, therefore a fast-forward merge
+- will take place.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+- Hopefully it will be possible to to a fast-forward merge instead of a
+- fetch-merge.
+
