@@ -47,3 +47,10 @@ stored locally?
 - Hopefully it will be possible to to a fast-forward merge instead of a
 - fetch-merge.
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+- I would probably have to use dropbox, email or something like that.
+- I don't know what would be easier.
+- It would be harder because everything wouldn't be built in like it is now.
+
