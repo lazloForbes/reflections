@@ -54,3 +54,9 @@ and what would be harder?
 - I don't know what would be easier.
 - It would be harder because everything wouldn't be built in like it is now.
 
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+- When I want to continue building on the code with a new feature but I don't
+- want to do this on the working master.
+- I always have a working master.
