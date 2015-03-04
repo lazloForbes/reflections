@@ -6,12 +6,23 @@ work local?
 
 New commands:
 
-- "git push nameOfRepository" - use when I want to push files to GitHub
-- "git pull nameOfRepository branchToPullTo" - use when I want to pull files
-- from GitHub
+- "git push nameOfRemote(origin is common)" - use when I want to push files to
+- GitHub.
+- "git pull nameOfRemote(origin is commin) branchToPullTo" - use when I want to
+- pull files from GitHub.
 
 Why might you want to always pull changes manually rather than having Git 
 automatically stay up-to-date with your remote repository?
 
 - Because if I'm working on a project I maby don't want new code that could
 - interfer with what I've done.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+- FORKS are clones made on GitHub. What this means is that if you are on GitHub
+- and want to clone a repository from another user, you fork it and it will now
+- be one of your repositories.
+- CLONES are an copy of a repository that you have on your local computer.
+- BRANCHES are a sidetracks you can use if you want to test out new idead but
+- don't want to make changes to the working copy that are official.
